@@ -60,12 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\PlayerLife.cs" />
+    <Compile Include="Assets\Script\StickyPlatform.cs" />
     <Compile Include="Assets\Script\Finish.cs" />
     <Compile Include="Assets\Script\EndMenu.cs" />
     <Compile Include="Assets\Script\Rotate.cs" />
     <Compile Include="Assets\Script\StartMenu.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\ItemCollector.cs" />
+    <Compile Include="Assets\Script\WayPointFollower.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
