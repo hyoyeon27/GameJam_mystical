@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CameraController.cs" />
+    <Compile Include="Assets\Script\ItemCollector.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
