@@ -72,7 +72,6 @@ public class playerMovement : MonoBehaviour
         {
             // idle state
             state = AnimationState.idle;
-            animator.SetBool("running", false);
         }
 
         // jumping
