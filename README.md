@@ -2,5 +2,5 @@
 ## Members
 - Hyoyeon Lee
 - Jimin Ryu
-- Clarrisa Ch'ng
+- Clarissa Ch'ng
 - Xin Yan Lim
