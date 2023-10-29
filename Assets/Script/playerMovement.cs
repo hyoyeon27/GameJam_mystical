@@ -32,7 +32,7 @@ public class playerMovement : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal");
         rigidBody.velocity = new Vector2(dirX * moveSpeed, rigidBody.velocity.y);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded()) // get it from Input Manager from Project Settings
+        if (Input.GetButtonDown("Jump")) // get it from Input Manager from Project Settings
         // GetButtonDown -> only effective for "pressing"
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
@@ -42,11 +42,11 @@ public class playerMovement : MonoBehaviour
         UpdateAnimationState();
     }
 
-    // part 6 -> set boundaries and check whether the character is grounded
-    private bool IsGrounded()
-        {
-            return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
-        }
+    // set boundaries and check whether the character is grounded
+    //private bool IsGrounded()
+      //  {
+        //    return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+        //}
 
     private void UpdateAnimationState()
     {
@@ -71,16 +71,18 @@ public class playerMovement : MonoBehaviour
             animator.SetBool("running", false);
         }
 
-        //     if (rb.velocity.y > .1f)
-        //     {
-        //         state = MovementState.jumping;
-        //     }
-        //     else if (rb.velocity.y < -.1f)
-        //     {
-        //         state = MovementState.falling;
-        //     }
-
-        //     anim.SetInteger("state", (int)state);
-        // }
+        // jumping
+        if (rigidBody.velocity.y > .1f)
+        {
+            state = AnimationState.jumping;
+        }
+        // falling
+        else if (rigidBody.velocity.y < -.1f)
+        {
+            state = AnimationState.falling;
+        }
+   
+        // align with the animator where we use int state
+        animator.SetInteger("state", (int)state);
     }
 }
