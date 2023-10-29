@@ -23,7 +23,7 @@ public class Finish : MonoBehaviour
             Invoke("CompleteLevel", 2f);
         }
     }
-    
+
     private void CompleteLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
