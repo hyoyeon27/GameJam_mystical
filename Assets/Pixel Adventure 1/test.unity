@@ -3615,10 +3615,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+<<<<<<< HEAD
 --- !u!4 &1873715873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7381223943278759070, guid: 09f9aefd3f4569a4fbbc879c6ac3fac4, type: 3}
   m_PrefabInstance: {fileID: 1449105139}
+=======
+--- !u!1 &2050889176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2790397794379632639, guid: a9403414a6018d640a9aa9a8785a9e52, type: 3}
+  m_PrefabInstance: {fileID: 5857442590267498981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2050889177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050889176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b8882fc30f5940da9c74b2db72fd4d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathSoundEffect: {fileID: 2050889178}
+--- !u!82 &2050889178 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1640841436401717089, guid: a9403414a6018d640a9aa9a8785a9e52, type: 3}
+  m_PrefabInstance: {fileID: 5857442590267498981}
+>>>>>>> c5be9cb0f44c9cc0268bde20683a0a770db27254
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5857442590267498981
 PrefabInstance:
@@ -3682,7 +3707,11 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2790397794379632639, guid: a9403414a6018d640a9aa9a8785a9e52, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 1132054251}
+=======
+      addedObject: {fileID: 2050889177}
+>>>>>>> c5be9cb0f44c9cc0268bde20683a0a770db27254
   m_SourcePrefab: {fileID: 100100000, guid: a9403414a6018d640a9aa9a8785a9e52, type: 3}
 --- !u!1001 &7031032407829221036
 PrefabInstance:
