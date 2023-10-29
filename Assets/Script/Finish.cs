@@ -7,21 +7,21 @@ using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
-    private AudioSource finishSound;
+    private AudioSource finishiSound;
 
     private bool levelCompleted = false;
 
     // Start is called before the first frame update
     private void Start()
     {
-        finishSound = GetComponent<AudioSource>();
+        finishiSound = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collison) 
     {
         if(collison.gameObject.name == "Player" && !levelCompleted)
         {
-            finishSound.Play();
+            finishiSound.Play();
             levelCompleted = true;
             Invoke("CompleteLevel", 2f);
         }

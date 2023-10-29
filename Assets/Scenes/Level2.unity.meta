@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3cbb0dafb87e3574e8566e33276552a8
+=======
+guid: 747614ba55f42e744b79762a4390a9fb
+>>>>>>> parent of a386a99... Merge branch 'dev' of github.com:hyoyeon27/GameJam_mystical into dev
 DefaultImporter:
   externalObjects: {}
   userData: 
