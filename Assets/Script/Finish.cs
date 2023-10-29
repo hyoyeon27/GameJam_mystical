@@ -1,27 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.NetworkInformation;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
-    private AudioSource finishiSound;
+    private AudioSource finishSound;
 
     private bool levelCompleted = false;
 
-    // Start is called before the first frame update
     private void Start()
     {
-        finishiSound = GetComponent<AudioSource>();
+        finishSound = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collison) 
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collison.gameObject.name == "Player" && !levelCompleted)
+        if (collision.gameObject.name == "Player" && !levelCompleted)
         {
-            finishiSound.Play();
+            finishSound.Play();
             levelCompleted = true;
             Invoke("CompleteLevel", 2f);
         }
@@ -29,6 +26,6 @@ public class Finish : MonoBehaviour
 
     private void CompleteLevel()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 }
