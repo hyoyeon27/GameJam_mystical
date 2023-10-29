@@ -48,6 +48,9 @@ TagManager:
   - name: trees
     uniqueID: 3527239449
     locked: 0
+  - name: flowers
+    uniqueID: 3986434035
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
