@@ -9,6 +9,8 @@ public class Finish : MonoBehaviour
 {
     private AudioSource finishiSound;
 
+    private bool levelCompleted = false;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -17,9 +19,10 @@ public class Finish : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collison) 
     {
-        if(collison.gameObject.name == "Player")
+        if(collison.gameObject.name == "Player" && !levelCompleted)
         {
             finishiSound.Play();
+            levelCompleted = true;
             Invoke("CompleteLevel", 2f);
         }
     }
