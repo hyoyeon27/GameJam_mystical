@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CameraController.cs" />
+    <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
