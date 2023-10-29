@@ -20,6 +20,8 @@ public class playerMovement : MonoBehaviour
 
     private enum AnimationState { idle, running, jumping, falling }
 
+    [SerializeField] private AudioSource jumpSoundEffect;
+
     private void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -38,6 +40,7 @@ public class playerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded()) // get it from Input Manager from Project Settings
         // GetButtonDown -> only effective for "pressing"
         {
+            jumpSoundEffect.Play();
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
         }
 
