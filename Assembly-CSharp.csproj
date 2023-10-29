@@ -68,6 +68,7 @@
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\ItemCollector.cs" />
     <Compile Include="Assets\Script\WayPointFollower.cs" />
+    <Compile Include="Assets\Player2Movement.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
