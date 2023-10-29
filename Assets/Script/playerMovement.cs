@@ -9,8 +9,11 @@ public class playerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator animator;
 
+    // serializefield -> so u can just edit value in unity (convinience)
+    // can pass in the editor
     [SerializeField] private LayerMask jumpableGround;
 
+    // set variables for the movements + dir
     private float dirX = 0f;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
@@ -29,24 +32,25 @@ public class playerMovement : MonoBehaviour
     private void Update()
     { 
         // GetAxisRaw -> reset value to 0 immediately
-        dirX = Input.GetAxisRaw("Horizontal");
+        dirX = Input.GetAxisRaw("Horizontal"); // moving left and right
         rigidBody.velocity = new Vector2(dirX * moveSpeed, rigidBody.velocity.y);
 
-        if (Input.GetButtonDown("Jump")) // get it from Input Manager from Project Settings
+        if (Input.GetButtonDown("Jump") && IsGrounded()) // get it from Input Manager from Project Settings
         // GetButtonDown -> only effective for "pressing"
         {
             rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
         }
-        
-        
+
         UpdateAnimationState();
     }
 
     // set boundaries and check whether the character is grounded
-    //private bool IsGrounded()
-      //  {
-        //    return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
-        //}
+    private bool IsGrounded()
+    {
+        // collider.bounds.center, collider.bounds.size -> size of "box"
+        // checks if we are overlapping the jumpableground
+        return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
 
     private void UpdateAnimationState()
     {
