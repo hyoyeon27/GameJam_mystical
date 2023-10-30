@@ -71,7 +71,6 @@
     <Compile Include="Assets\Script\playerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\GothicvaniaCemeteryArtwork\about.txt" />
     <None Include="Assets\CasualGameBGM05\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>

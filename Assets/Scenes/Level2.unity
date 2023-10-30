@@ -33721,6 +33721,23 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1576875682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+  m_PrefabInstance: {fileID: 1755661140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1576875687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576875682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b467e6742c28b44439294eee3979fc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1709831561
 GameObject:
   m_ObjectHideFlags: 0
@@ -33878,7 +33895,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1576875687}
   m_SourcePrefab: {fileID: 100100000, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
 --- !u!1001 &1799227883
 PrefabInstance:
@@ -33970,6 +33990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b8882fc30f5940da9c74b2db72fd4d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSoundEffect: {fileID: 0}
 --- !u!1001 &1883489845
 PrefabInstance:
   m_ObjectHideFlags: 0
