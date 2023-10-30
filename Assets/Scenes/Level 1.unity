@@ -2386,6 +2386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3683,6 +3687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3693,6 +3701,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 75818606926098573, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
   m_PrefabInstance: {fileID: 1305220281}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &377827890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+  m_PrefabInstance: {fileID: 3855636696748129288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &377827895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377827890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b467e6742c28b44439294eee3979fc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &380981142 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 75818606926098573, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
@@ -4365,6 +4390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4422,28 +4451,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
---- !u!1 &564892125 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
-  m_PrefabInstance: {fileID: 3855636696748129288}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &564892130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564892125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b467e6742c28b44439294eee3979fc7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &581283084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 75818606926098573, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
@@ -4500,6 +4516,10 @@ PrefabInstance:
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
       value: Cherry (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5106,6 +5126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5353,6 +5377,10 @@ PrefabInstance:
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
       value: Cherry (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7014,6 +7042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7070,6 +7102,10 @@ PrefabInstance:
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
       value: Cherry (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7294,6 +7330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7516,6 +7556,10 @@ PrefabInstance:
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
       value: Cherry (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7865,6 +7909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8085,6 +8133,10 @@ PrefabInstance:
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
       value: Cherry (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10321,6 +10373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cherry (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10408,6 +10464,10 @@ PrefabInstance:
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
       value: Cherry (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10704,14 +10764,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 33522093215555014, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
-    - target: {fileID: 33522093215555014, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 693864764767725267, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.19
@@ -10766,7 +10818,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 564892130}
+      addedObject: {fileID: 377827895}
   m_SourcePrefab: {fileID: 100100000, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
 --- !u!1001 &5857442590267498981
 PrefabInstance:
@@ -10882,6 +10934,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
       propertyPath: m_Name
+      value: Cherry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7101777878392323942, guid: 4e9e94a5c44cf9b4b88409f557c2c83e, type: 3}
+      propertyPath: m_TagString
       value: Cherry
       objectReference: {fileID: 0}
     m_RemovedComponents: []
