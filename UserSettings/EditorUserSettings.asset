@@ -6,51 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 0557570006065f5a5a570a73437b5d4444151a2c7f7a70692e7a4435b0b1376c
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-<<<<<<< HEAD
       value: 5405035054010b5a585b0a764226084442154f737b7e7431797a4463e3b9323a
       flags: 0
-    RecentlyUsedSceneGuid-2:
+    RecentlyUsedSceneGuid-1:
       value: 5054550251565d02580a0a72117b0b44474f4b297a2c776775781e37b0b7656b
-=======
-      value: 520403535353510b0b5d5b7740770b11134f1973297175607f284564b6e5326b
       flags: 0
     RecentlyUsedSceneGuid-2:
-<<<<<<< HEAD
-      value: 5a53055656030a0d5a0a0d7b167b5e44434e4a79287c7531287c1f64b7b26660
-      flags: 0
-    RecentlyUsedSceneGuid-3:
-      value: 07090c075354595d0f5c587040270944464e1c7d7d7a7762757a4e35b7e3353e
-=======
-      value: 07090c075354595d0f5c587040270944464e1c7d7d7a7762757a4e35b7e3353e
->>>>>>> aa21d93d2af280fb09a06fb35efcae8a86a1d49c
-      flags: 0
-    RecentlyUsedSceneGuid-3:
       value: 5209520356025a085957592114725944474f197a7d2b7e33787e1b65e1b8376a
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-3:
       value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 07090c075354595d0f5c587040270944464e1c7d7d7a7762757a4e35b7e3353e
       flags: 0
     RecentlyUsedSceneGuid-5:
       value: 505256045551085d0f565b2743760844134f4d7c7a2d75637f7e4b66b7b23560
       flags: 0
     RecentlyUsedSceneGuid-6:
-      value: 07090c075354595d0f5c587040270944464e1c7d7d7a7762757a4e35b7e3353e
+      value: 5a010454500350025e59547b487a0744154f4a73747d2061787c4c61b6e46d3d
       flags: 0
     RecentlyUsedSceneGuid-7:
       value: 5a53055656030a0d5a0a0d7b167b5e44434e4a79287c7531287c1f64b7b26660
->>>>>>> parent of 18c7136... Merge branch 'dev' of github.com:hyoyeon27/GameJam_mystical into dev
-      flags: 0
-    RecentlyUsedSceneGuid-4:
-      value: 505256045551085d0f565b2743760844134f4d7c7a2d75637f7e4b66b7b23560
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 0257030300005a5f58595926457a0f444415492e7a7e70347c2d4a67e6b26760
+      value: 01020656530c580f0e085f7214700e44414e487a2f7024632871486ab0b06c6f
       flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 01020656530c580f0e085f7214700e44414e487a2f7024632871486ab0b06c6f
+      value: 0257030300005a5f58595926457a0f444415492e7a7e70347c2d4a67e6b26760
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

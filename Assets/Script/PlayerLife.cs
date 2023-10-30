@@ -35,17 +35,14 @@ public class PlayerLife : MonoBehaviour
 
     private void RestartLevel()
     {
-<<<<<<< HEAD
-        if(SceneManager.GetActiveScene().name.Equals("Level 1") || SceneManager.GetActiveScene().name.Equals("Level 3"))
-=======
+
        if(SceneManager.GetActiveScene().name.Equals("Level 1") || SceneManager.GetActiveScene().name.Equals("Level 3"))
->>>>>>> aa21d93d2af280fb09a06fb35efcae8a86a1d49c
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
         else
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(4);
         }
     }
 
