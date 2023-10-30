@@ -42165,13 +42165,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 33522093215555014, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2667a0a008b044e218b63df62e2be749, type: 3}
     - target: {fileID: 693864764767725267, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.19
       objectReference: {fileID: 0}
     - target: {fileID: 693864764767725267, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.58
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 693864764767725267, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42212,8 +42216,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1755661142}
   m_SourcePrefab: {fileID: 100100000, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+--- !u!1 &1755661141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2433249592105735629, guid: 5ad7824072a7f41eeb8e182eeb82a926, type: 3}
+  m_PrefabInstance: {fileID: 1755661140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1755661142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755661141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b467e6742c28b44439294eee3979fc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1757396965 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8428332324592743927, guid: 80bce79216fb0ea478d6792bb74ee49d, type: 3}
