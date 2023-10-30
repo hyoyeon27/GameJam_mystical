@@ -35,12 +35,7 @@ public class PlayerLife : MonoBehaviour
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    private void ContaminatedLevel()
-    {
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(1);
     }
-
 }
