@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cherry
+  - Trap
+  - Melon
+  - Apple
   layers:
   - Default
   - TransparentFX
@@ -38,8 +42,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
+  - name: sky
     uniqueID: 108185219
+    locked: 0
+  - name: cloud
+    uniqueID: 2624524073
+    locked: 0
+  - name: trees
+    uniqueID: 3527239449
+    locked: 0
+  - name: flowers
+    uniqueID: 3986434035
     locked: 0
   - name: Default
     uniqueID: 0

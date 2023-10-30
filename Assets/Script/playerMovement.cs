@@ -9,6 +9,8 @@ public class playerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator animator;
 
+    private bool doubleJump = true;
+
     // serializefield -> so u can just edit value in unity (convinience)
     // can pass in the editor
     [SerializeField] private LayerMask jumpableGround;
@@ -19,6 +21,8 @@ public class playerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 14f;
 
     private enum AnimationState { idle, running, jumping, falling }
+
+    [SerializeField] private AudioSource jumpSoundEffect;
 
     private void Start()
     {
@@ -35,10 +39,20 @@ public class playerMovement : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal"); // moving left and right
         rigidBody.velocity = new Vector2(dirX * moveSpeed, rigidBody.velocity.y);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded()) // get it from Input Manager from Project Settings
+        if (IsGrounded() && !Input.GetButton("Jump"))
+        {
+            doubleJump = false;
+        }
+        if (Input.GetButtonDown("Jump")) // get it from Input Manager from Project Settings
         // GetButtonDown -> only effective for "pressing"
         {
-            rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
+            if (IsGrounded() || doubleJump)
+            {
+                jumpSoundEffect.Play();
+                rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
+
+                doubleJump = !doubleJump;
+            }
         }
 
         UpdateAnimationState();
