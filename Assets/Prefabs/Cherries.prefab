@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 1935836649437677411}
   - component: {fileID: 2265159404349897192}
   m_Layer: 0
-  m_Name: Cherry
-  m_TagString: Cherry
+  m_Name: Cherries
+  m_TagString: Apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
