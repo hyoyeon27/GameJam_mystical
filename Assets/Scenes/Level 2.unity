@@ -459,7 +459,7 @@ Transform:
   m_GameObject: {fileID: 526503442}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: 0.59, z: 0}
+  m_LocalPosition: {x: 0.89, y: 0.59, z: 0}
   m_LocalScale: {x: 0.613866, y: 0.5295, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33128,6 +33128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b8882fc30f5940da9c74b2db72fd4d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSoundEffect: {fileID: 0}
 --- !u!1001 &1883489845
 PrefabInstance:
   m_ObjectHideFlags: 0
