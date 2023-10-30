@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/Level 2.unity.meta
+guid: 41f0f2d86d4aa478a99f7655f816ca53
+DefaultImporter:
+=======
 guid: b0a7377a7fc72ca45b6bae3a890829db
 PrefabImporter:
+>>>>>>> f7f5a66c7d83e9c89d8b2d4c84efe90415a76e79:Assets/Prefabs/Fire.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
